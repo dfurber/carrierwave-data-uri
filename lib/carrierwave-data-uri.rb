@@ -1,6 +1,6 @@
 require 'carrierwave'
 require 'data_uri'
-require 'mime/types'
+require 'mini_mime'
 require 'tempfile'
 
 require 'carrierwave/orm/activerecord'

@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'carrierwave'
   spec.add_dependency 'data_uri'
-  spec.add_dependency 'mime-types'
+  spec.add_dependency 'mini_mime', '>=0.1.3'
 end

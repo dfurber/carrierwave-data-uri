@@ -8,7 +8,7 @@ module CarrierWave
       end
 
       def content_type
-        @content_type || MIME::Types.type_for(original_filename).first.content_type
+        @content_type ||= ::MiniMime.lookup_by_filename(original_filename).content_type
       end
     end
   end
